@@ -51,7 +51,7 @@ const Sidebar = () => {
                 </div>
                 <div style={styles.secondtier}>
                 <div className="w3-padding w3-xxlarge w3-text-grey">
-                <a href='/About'><i className="icon" className="fa fa-user-circle" style={styles.icons} 
+                <a href='#About'><i className="icon" className="fa fa-user-circle" style={styles.icons} 
                     onMouseOut={({target})=>target.style.color='grey'}
                     onMouseOver={({target})=>target.style.color='Cornflowerblue'} ></i></a>
                 <a href='/Skills'><i className="fas fa-cog" style={styles.icons} onMouseOut={({target})=>target.style.color='grey'}
