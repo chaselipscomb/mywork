@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4645d51.chunk.css",
-    "main.js": "/static/js/main.f61d945e.chunk.js",
-    "main.js.map": "/static/js/main.f61d945e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9eb0259d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9eb0259d.js.map",
-    "static/js/2.96756778.chunk.js": "/static/js/2.96756778.chunk.js",
-    "static/js/2.96756778.chunk.js.map": "/static/js/2.96756778.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.9365a4105c4e1c8a217fd0370c97f734.js": "/precache-manifest.9365a4105c4e1c8a217fd0370c97f734.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.f4645d51.chunk.css.map": "/static/css/main.f4645d51.chunk.css.map",
-    "static/js/2.96756778.chunk.js.LICENSE": "/static/js/2.96756778.chunk.js.LICENSE"
+    "main.css": "/mywork/static/css/main.f4645d51.chunk.css",
+    "main.js": "/mywork/static/js/main.cf2d1fdc.chunk.js",
+    "main.js.map": "/mywork/static/js/main.cf2d1fdc.chunk.js.map",
+    "runtime-main.js": "/mywork/static/js/runtime-main.29147425.js",
+    "runtime-main.js.map": "/mywork/static/js/runtime-main.29147425.js.map",
+    "static/js/2.96756778.chunk.js": "/mywork/static/js/2.96756778.chunk.js",
+    "static/js/2.96756778.chunk.js.map": "/mywork/static/js/2.96756778.chunk.js.map",
+    "index.html": "/mywork/index.html",
+    "precache-manifest.64a44ebe4b3536d6fbb983ccfd2cba59.js": "/mywork/precache-manifest.64a44ebe4b3536d6fbb983ccfd2cba59.js",
+    "service-worker.js": "/mywork/service-worker.js",
+    "static/css/main.f4645d51.chunk.css.map": "/mywork/static/css/main.f4645d51.chunk.css.map",
+    "static/js/2.96756778.chunk.js.LICENSE": "/mywork/static/js/2.96756778.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.9eb0259d.js",
+    "static/js/runtime-main.29147425.js",
     "static/js/2.96756778.chunk.js",
     "static/css/main.f4645d51.chunk.css",
-    "static/js/main.f61d945e.chunk.js"
+    "static/js/main.cf2d1fdc.chunk.js"
   ]
 }
