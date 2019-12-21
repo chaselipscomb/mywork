@@ -20,7 +20,7 @@ const styles = {
 const work = [
     {
         link: "https://herofinder.herokuapp.com/",
-        image: "https://chaselipscomb.github.io/chaselipscomb.github5.io/assets/Herofinder.PNG",
+        image: "https://chaselipscomb.github.io/chaselipscomb5.github.io/assets/Herofinder.PNG",
         name: "Hero Finder"
     },
     {
@@ -30,22 +30,22 @@ const work = [
     },
     {
         link: "https://chaselipscomb.github.io/Password/",
-        image: "https://chaselipscomb.github.io/chaselipscomb.github5.io/assets/passwordgenerator.PNG",
+        image: "https://chaselipscomb.github.io/chaselipscomb5.github.io/assets/passwordgenerator.PNG",
         name: "PasswordGenerator"
     },
     {
         link: "https://note-taker-uci.herokuapp.com/",
-        image: "https://chaselipscomb.github.io/chaselipscomb.github5.io/assets/notetakerexpress.PNG",
+        image: "https://chaselipscomb.github.io/chaselipscomb5.github.io/assets/notetakerexpress.PNG",
         name: "Note Taker"
     },
     {
         link: "https://chaselipscomb.github.io/Planner/",
-        image: "https://chaselipscomb.github.io/chaselipscomb.github5.io/assets/workdayscheduler.PNG",
+        image: "https://chaselipscomb.github.io/chaselipscomb5.github.io/assets/workdayscheduler.PNG",
         name: "Work Day Scheduler"
     },
     {
         link: "https://chaselipscomb.github.io/codequiz/",
-        image: "https://chaselipscomb.github.io/chaselipscomb.github5.io/assets/Codingquiz.PNG",
+        image: "https://chaselipscomb.github.io/chaselipscomb5.github.io/assets/Codingquiz.PNG",
         name: "Code Quiz"
     },
 ]
