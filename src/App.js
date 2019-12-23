@@ -15,11 +15,11 @@ function App() {
     <React.Fragment>
       <Route component={Sidebar} />
       <Switch>
-      <Route exact path="/" component={NewLanding} />
-      <Route exact path="#About" component={About} />
-      <Route exact path="/Portfolio" component={Portfolio} />
-      <Route exact path="/Skills" component={Skills} />
-      <Route exact path="/Contact" component={Contact} />
+      <Route exact path="mywork/" component={NewLanding} />
+      <Route exact path="mywork/About" component={About} />
+      <Route exact path="mywork/Portfolio" component={Portfolio} />
+      <Route exact path="mywork/Skills" component={Skills} />
+      <Route exact path="mywork/Contact" component={Contact} />
       </Switch>
       </React.Fragment>
   </Router>
