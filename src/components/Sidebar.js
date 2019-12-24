@@ -20,7 +20,7 @@ const styles = {
 
     },
     secondtier: {
-        marginBottom: '15vh'
+        marginBottom: '25vh'
     },
     seconditem: {
         display: 'block'
@@ -64,15 +64,15 @@ const Sidebar = () => {
                     onMouseOver={({target})=>target.style.color='Cornflowerblue'} ></i></a> */}
                 </div>
                 </div>
-                <div className="w3-padding w3-xlarge w3-text-grey">
+                <div className="w3-padding w3-xxlarge w3-text-grey">
                 <a href='https://www.linkedin.com/in/chase-lipscomb-982b50148/' onMouseOut={({target})=>target.style.color='grey'}
                     onMouseOver={({target})=>target.style.color='Cornflowerblue'}><i className="fab fa-linkedin" style={styles.icon}></i></a>
                 <a href='https://github.com/chaselipscomb' onMouseOut={({target})=>target.style.color='grey'}
                     onMouseOver={({target})=>target.style.color='Cornflowerblue'}><i className="fab fa-github" style={styles.icon}></i></a>
-                <a href='https://www.instagram.com/_chasel/' onMouseOut={({target})=>target.style.color='grey'}
-                    onMouseOver={({target})=>target.style.color='Cornflowerblue'}><i className="fab fa-instagram" style={styles.icon}></i></a>
-                <a href='https://www.facebook.com/ChaseLipscomb97' onMouseOut={({target})=>target.style.color='grey'}
-                    onMouseOver={({target})=>target.style.color='Cornflowerblue'}><i className="fab fa-facebook" style={styles.icon}></i></a>
+                {/* <a href='https://www.instagram.com/_chasel/' onMouseOut={({target})=>target.style.color='grey'}
+                    onMouseOver={({target})=>target.style.color='Cornflowerblue'}><i className="fab fa-instagram" style={styles.icon}></i></a> */}
+                {/* <a href='https://www.facebook.com/ChaseLipscomb97' onMouseOut={({target})=>target.style.color='grey'}
+                    onMouseOver={({target})=>target.style.color='Cornflowerblue'}><i className="fab fa-facebook" style={styles.icon}></i></a> */}
 
 
                 </div>
