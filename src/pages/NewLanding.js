@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 
-const styles={
+const styles = {
     h1: {
         // marginTop: '25vh',
         color: 'lightgrey',
@@ -13,19 +14,19 @@ const styles={
         // padding: '1%',
         backgroundColor: 'inherit',
         // borderColor: 'grey'
-         display:"block",
-         padding:"0.35em 1.2em",
-         border:"0.1em solid black",
-         margin:"0 0.3em 0.3em 0",
-         borderRadius:"0.12em",
-         boxSizing: "border-box",
-         textDecoration:"none",
-         fontWeight:"300",
-         color:"black",
-         textAlign:"center",
-         transition: "all 0.2s",
-         fontFamily: 'fantasy',
-         fontWeight: 'bold'
+        display: "block",
+        padding: "0.35em 1.2em",
+        border: "0.1em solid black",
+        margin: "0 0.3em 0.3em 0",
+        borderRadius: "0.12em",
+        boxSizing: "border-box",
+        textDecoration: "none",
+        fontWeight: "300",
+        color: "black",
+        textAlign: "center",
+        transition: "all 0.2s",
+        fontFamily: 'fantasy',
+        fontWeight: 'bold'
     },
     htmlstart: {
         color: 'CornflowerBlue',
@@ -76,35 +77,35 @@ const tags = {
 }
 const Newlanding = () => {
 
-    return(
+    return (
 
         <>
-        
-        <br></br> 
-        <div className="container">
-        {/* <p className="htmlstart">{tags.htmlstart}</p>
+
+            <br></br>
+            <div className="container">
+                {/* <p className="htmlstart">{tags.htmlstart}</p>
         <p className="bodystart">{tags.bodystart}</p>       
             <p className="h1start">{tags.h1start}</p> */}
-            <center> 
-            {/* <p className="nameh1">Chase Lipscomb Web Developer</p> */}
-            <div class="typewriter">
-  <h1>Chase Lipscomb Web Developer</h1>
-</div>
-            </center>
-            {/* <p className="h1end">{tags.h1end}</p>
+                <center>
+                    {/* <p className="nameh1">Chase Lipscomb Web Developer</p> */}
+                    <div class="typewriter">
+                        <h1>Chase Lipscomb Web Developer</h1>
+                    </div>
+                </center>
+                {/* <p className="h1end">{tags.h1end}</p>
             <p className="buttonstart">{tags.buttonstart}</p> */}
-            <center> 
-            <a href='/Portfolio'><button style={styles.button}
-href='/Portfolio'                onMouseOut={({target})=>{
-                    target.style.color='darkslategrey'
-                    target.style.borderColor='darkslategrey'
-                }}
-                onMouseOver={({target})=>{
-                    target.style.color='white'
-                    target.style.borderColor='white'
-                    }}>View Work</button></a>
-            </center>
-            {/* <p className="h1end">{tags.buttonend}</p>
+                <center>
+                <Link to="/Portfolio"><a href='/mywork/Portfolio'><button style={styles.button}
+                        href='/mywork/Portfolio' onMouseOut={({ target }) => {
+                            target.style.color = 'darkslategrey'
+                            target.style.borderColor = 'darkslategrey'
+                        }}
+                        onMouseOver={({ target }) => {
+                            target.style.color = 'white'
+                            target.style.borderColor = 'white'
+                        }}>View Work</button></a></Link>
+                </center>
+                {/* <p className="h1end">{tags.buttonend}</p>
             <br></br>
             <p className="bodyend">{tags.bodyend}</p>
             <p className="htmlstart">{tags.htmlend}</p> */}

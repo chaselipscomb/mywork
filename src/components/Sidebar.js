@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 
 const styles = {
     bar: {
@@ -45,19 +47,19 @@ const Sidebar = () => {
             <div style={styles.bar}>
                 <div style={styles.black}>
                 <div className="w3-padding w3-xxxlarge w3-text-white">
-                <a href='/'><i className="fa fa-home"  style={styles.white} onMouseOut={({target})=>target.style.color='grey'}
-                    onMouseOver={({target})=>target.style.color='Cornflowerblue'}></i></a>
+                <Link to="/"><a href='/'><i className="fa fa-home"  style={styles.white} onMouseOut={({target})=>target.style.color='grey'}
+                    onMouseOver={({target})=>target.style.color='Cornflowerblue'}></i></a></Link>
                 </div>
                 </div>
                 <div style={styles.secondtier}>
                 <div className="w3-padding w3-xxlarge w3-text-grey">
-                <a href='#About'><i className="icon" className="fa fa-user-circle" style={styles.icons} 
+                <Link to="/About"><a href='/About'><i className="icon" className="fa fa-user-circle" style={styles.icons} 
                     onMouseOut={({target})=>target.style.color='grey'}
-                    onMouseOver={({target})=>target.style.color='Cornflowerblue'} ></i></a>
-                <a href='/Skills'><i className="fas fa-cog" style={styles.icons} onMouseOut={({target})=>target.style.color='grey'}
-                    onMouseOver={({target})=>target.style.color='Cornflowerblue'} ></i></a>
-                <a href='/Portfolio'><i className="far fa-eye" style={styles.icons} onMouseOut={({target})=>target.style.color='grey'}
-                    onMouseOver={({target})=>target.style.color='Cornflowerblue'} ></i></a>
+                    onMouseOver={({target})=>target.style.color='Cornflowerblue'} ></i></a></Link>
+                <Link to="/Skills"><a href='/Skills' ><i className="fas fa-cog" style={styles.icons} onMouseOut={({target})=>target.style.color='grey'}
+                    onMouseOver={({target})=>target.style.color='Cornflowerblue'} ></i></a></Link>
+                <Link to="/Portfolio"><a href='/Portfolio'><i className="far fa-eye" style={styles.icons} onMouseOut={({target})=>target.style.color='grey'}
+                    onMouseOver={({target})=>target.style.color='Cornflowerblue'} ></i></a></Link>
                 {/* <a href='/Contact'><i className="far fa-envelope" style={styles.icons} onMouseOut={({target})=>target.style.color='grey'}
                     onMouseOver={({target})=>target.style.color='Cornflowerblue'} ></i></a> */}
                 </div>
