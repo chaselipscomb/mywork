@@ -249,6 +249,7 @@
     }
 @media only screen and (max-width: 500px) {
     .img1 { 
+        margin-bottom: 10px;
         width: 90%;
         height: 300px;
         display: block; }
