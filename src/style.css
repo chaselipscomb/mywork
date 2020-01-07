@@ -52,7 +52,7 @@
         margin-top: 20%;
         font-size: 45px;
         color: black;
-        font-family: fantasy;
+        
         font-weight: bold;
     }
   }
@@ -61,7 +61,7 @@
         margin-top: 20%;
         font-size: 35px;
         color: black;
-        font-family: fantasy;
+        
         font-weight: bold;
     }
   }
@@ -70,8 +70,11 @@
         margin-top: 50%;
         font-size: 15px;
         color: black;
-        font-family: fantasy;
+        
         font-weight: bold;
+    }
+    .frontpageh1 {
+        font-size: 14px;
     }
   }
 .htmlstart {
@@ -213,7 +216,7 @@
         margin-bottom: -50%;
     }
   .typewriter h1 {
-      font-size: 20px;
+      font-size: 18px;
   }
 }
 @media only screen and (max-width: 350px) {
@@ -222,7 +225,7 @@
         margin-bottom: 10%;
     }
   .typewriter h1 {
-      font-size: 15px;
+      font-size: 12px;
   }
 }
 .portfoliocontainer {
@@ -272,7 +275,7 @@ img { height: 150px;}
 .aboutcontainer {
     margin-top: 5%;
     height: 60%;
-    margin-left: 10%;
+    margin: 5%;
 
 }
 .aboutleftside {
@@ -361,7 +364,7 @@ h2 {
 
 .ptag2 {
     font-size: 25px;
-    font-family: fantasy;
+    
     font-weight: 940;
     line-height: 30px;
     text-shadow: .03em .03em 0 rgb(161, 161, 161);

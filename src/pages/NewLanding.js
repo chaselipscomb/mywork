@@ -25,7 +25,6 @@ const styles = {
         color: "black",
         textAlign: "center",
         transition: "all 0.2s",
-        fontFamily: 'fantasy',
         fontWeight: 'bold'
     },
     htmlstart: {

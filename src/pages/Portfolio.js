@@ -4,7 +4,6 @@ import joke from '../pictures/jokepicture.png';
 const styles = {
     h1: {
         marginTop: '2%',
-        fontFamily: 'fantasy'
     }
 
 

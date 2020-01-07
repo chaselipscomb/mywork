@@ -13,7 +13,6 @@ const styles = {
     },
     ptag: {
         fontSize: '25px',
-        fontFamily: 'fantasy',
         fontWeight: '940',
         lineHeight: '26px',
         marginBottom: '-8%'
@@ -46,7 +45,11 @@ const About = () => {
                             </center>
                     </div>
                 </div>
-
+                <center>
+                    <h3>Contact Me: </h3>
+                    <div>Email: <span>chaselipscomb97@gmail.com</span></div>
+                    <div>Mobile: <span>(949) 233-5881</span></div>
+                </center>
             </div>
         </>
     )
