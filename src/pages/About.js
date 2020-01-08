@@ -19,6 +19,9 @@ const styles = {
     },
     grey: {
         color: 'slategrey'
+    },
+    atag: {
+        marginTop: '20px'
     }
 }
 
@@ -42,16 +45,19 @@ const About = () => {
                             </div>
                             <p className='ptag2' >I enjoy creating responsive designs and have the ability to communicate well with team members to minimize debugging and downtime. Some of my skills include mobile first design, concentrated Javascript, and client/server logic. I am dedicated to furthering my knowlege of Web Development and providing user friendly applications.</p>
                             <p style={styles.ptag2}>Core Compentencies: HTML/CSS, JavaScript, jQuery, React, Redux, MySQL, MongoDB, Node, Express, Git, Bash</p>
-                            </center>
+                        </center>
                     </div>
                 </div>
                 <center>
                     <h3>Contact Me: </h3>
                     <div>Email: <span>chaselipscomb97@gmail.com</span></div>
                     <div>Mobile: <span>(949) 233-5881</span></div>
+                    <br></br>
+                    <a href="http://www.keepandshare.com/doc10/view.php?id=28937&da=y" download><button>View Resume</button></a>
                 </center>
+
             </div>
         </>
-    )
-}
+            )
+        }
 export default About

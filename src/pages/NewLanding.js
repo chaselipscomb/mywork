@@ -82,17 +82,11 @@ const Newlanding = () => {
 
             <br></br>
             <div className="container">
-                {/* <p className="htmlstart">{tags.htmlstart}</p>
-        <p className="bodystart">{tags.bodystart}</p>       
-            <p className="h1start">{tags.h1start}</p> */}
                 <center>
-                    {/* <p className="nameh1">Chase Lipscomb Web Developer</p> */}
                     <div class="typewriter">
                         <h1>Chase Lipscomb Web Developer</h1>
                     </div>
                 </center>
-                {/* <p className="h1end">{tags.h1end}</p>
-            <p className="buttonstart">{tags.buttonstart}</p> */}
                 <center>
                 <Link to="/Portfolio"><a href='/mywork/Portfolio'><button style={styles.button}
                         href='/mywork/Portfolio' onMouseOut={({ target }) => {
@@ -104,10 +98,6 @@ const Newlanding = () => {
                             target.style.borderColor = 'white'
                         }}>View Work</button></a></Link>
                 </center>
-                {/* <p className="h1end">{tags.buttonend}</p>
-            <br></br>
-            <p className="bodyend">{tags.bodyend}</p>
-            <p className="htmlstart">{tags.htmlend}</p> */}
             </div>
 
         </>
