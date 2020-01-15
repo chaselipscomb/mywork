@@ -53,7 +53,7 @@ const About = () => {
                     <div>Email: <span>chaselipscomb97@gmail.com</span></div>
                     <div>Mobile: <span>(949) 233-5881</span></div>
                     <br></br>
-                    <a href="http://www.keepandshare.com/doc10/view.php?id=28937&da=y" download><button>View Resume</button></a>
+                    <a href="https://www.keepandshare.com/doc10/28963/chase-s-resume-1-docx-9k?da=y" download><button>Download Resume</button></a>
                 </center>
 
             </div>
