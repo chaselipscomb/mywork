@@ -19,9 +19,6 @@ const styles = {
         marginBottom: "20vh"
 
     },
-    secondtier: {
-        marginBottom: '25vh'
-    },
     seconditem: {
         display: 'block'
     },
@@ -51,7 +48,7 @@ const Sidebar = () => {
                     onMouseOver={({target})=>target.style.color='Cornflowerblue'}></i></a></Link>
                 </div>
                 </div>
-                <div style={styles.secondtier}>
+                <div className="secondtier">
                 <div className="w3-padding w3-xxlarge w3-text-grey">
                 <Link to="/About"><a href='/About'><i className="icon" className="fa fa-user-circle" style={styles.icons} 
                     onMouseOut={({target})=>target.style.color='grey'}

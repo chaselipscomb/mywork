@@ -369,3 +369,11 @@ h2 {
     line-height: 30px;
     text-shadow: .03em .03em 0 rgb(161, 161, 161);
 }
+.secondtier {
+    margin-bottom: 25vh;
+}
+@media only screen and (max-width: 600px) {
+    .secondtier {
+        margin-bottom: 10vh;
+    }
+}
