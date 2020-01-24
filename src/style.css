@@ -276,6 +276,7 @@
        .img1 { height: 250px !important; 
             width: 95%;
             display:block;
+            margin-bottom: 5px;
     }
 
     }

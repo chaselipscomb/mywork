@@ -44,7 +44,7 @@ const About = () => {
                                 <p style={styles.ptag}><span className='aboutspan'>I am a </span>Front-End Developer...</p>
                             </div>
                             <p className='ptag2' >I enjoy creating responsive designs and have the ability to communicate well with team members to minimize debugging and downtime. Some of my skills include mobile first design, concentrated Javascript, and client/server logic. I am dedicated to furthering my knowlege of Web Development and providing user friendly applications.</p>
-                            <p style={styles.ptag2}>Core Compentencies: HTML/CSS, JavaScript, jQuery, React, Redux, MySQL, MongoDB, Node, Express, Git, Bash</p>
+                            <p style={styles.ptag2}>Core Compentencies: HTML/CSS, JavaScript, jQuery, React, Redux, MySQL, MongoDB, Node, Express, Git, Bash, Mocha, FlexBox</p>
                         </center>
                     </div>
                 </div>

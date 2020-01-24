@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import joke from '../pictures/jokepicture.png';
+import booth from '../pictures/herobooth.png';
 
 const styles = {
     h1: {
@@ -11,7 +12,7 @@ const styles = {
 const work = [
     {
         link: "https://herofinder.herokuapp.com/",
-        image: "https://chaselipscomb.github.io/chaselipscomb5.github.io/assets/Herofinder.PNG",
+        image: booth,
         name: "Hero Finder"
     },
     {
